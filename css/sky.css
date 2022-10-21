@@ -1,0 +1,120 @@
+/* CSS Document */
+p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,form,table,a,div,img,body{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body {
+	background: url("../images/sky.jpg") no-repeat;
+	background-size: cover;
+}
+.content h1 {
+	text-align: center;
+	color: aliceblue;
+	font-family: "楷体";
+}
+.content h1 span {
+	color: orange;
+}
+.content h1 span:hover {
+	color: #3480DE;
+}
+.content h2{
+	padding-top: 40px;
+	color: #B1B1B1;
+}
+.content h3 {
+	padding-top: 20px;
+	color: #0e9fbe;
+	text-align: center;
+	font-size: 30px;
+}
+.content ul{
+	width: 80%;
+	margin: 20px auto;
+	margin-bottom: 30px;
+}
+.content ul marquee {
+	font-size: 50px;
+	color: red;
+	font-family: "楷体";
+}
+.content ul li{
+	margin-bottom: 10px;
+}
+.content ul li p{
+	color: white;
+	font-family: "楷体";
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.content ul li p:hover,.content ul h2:hover,.content ul h3:hover {
+	color: red;
+}
+.content ul li img{
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+.content2 h2{
+	padding-top: 40px;
+	color: #B1B1B1;
+}
+.content2 h3 {
+	padding-top: 60px;
+	color: #5DD6EC;
+	
+	font-family: "楷体";
+	float: left;
+	font-size: 30px;
+}
+.content2 ul{
+	width: 80%;
+	margin: 20px auto;
+	margin-bottom: 30px;
+}
+.content2 ul marquee {
+	font-size: 50px;
+	color: red;
+	font-family: "楷体";
+}
+.content2 ul li{
+	margin-bottom: 10px;
+}
+.content2 ul li p{
+	color: white;
+	font-family: "楷体";
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.content2 ul li p:hover,.content2 ul h2:hover,.content2 ul h3:hover {
+	color: red;
+}
+.content2 ul li img{
+	float: left;
+	display: block;
+	margin-right: 20px;
+}
+.nav {
+    border: 0 solid #333;
+    width: 400px;
+    height: 247px;
+    float: left;
+    position: absolute;
+    left: 10px;
+    top: 1466px;
+}
+.nav p {
+	color: aliceblue;
+	font-size: 30px;
+	padding-top: 100px;
+	font-family: "楷体";
+}
+.nav p:hover {
+	color: red;
+}

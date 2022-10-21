@@ -1,0 +1,55 @@
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Arial, san-serif;
+	text-indent: 2em;
+	background: url("../images/体育背景.jpg") no-repeat;
+	height: 1200px;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	color: red;
+	font-family: "楷体";
+	font-size: 30px;
+}
+p {
+	font-size: 20px;
+}
+p:hover {
+	color: blue;
+}
+h2 {
+	color: #117EED;
+	text-align: center;
+	font-family: "楷体";
+	font-size: 30px;
+}
+.footer {
+    width: 100%;
+    height: 120px;
+    border: 0 solid black;
+    top: 1200px;
+	background-color: #A3181A;
+	text-align: center;
+}
+.footer a {
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	font-family: "楷体";
+	float: left;
+}
+.footer a strong:hover {
+	color: red;
+}
+.footer li {
+	list-style: none;
+}
+.footer p {
+	color: aliceblue;
+	font-size: 20px;
+	padding-top: 30px;
+	font-family: "楷体";
+}
